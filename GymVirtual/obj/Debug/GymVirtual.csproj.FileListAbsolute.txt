@@ -1,0 +1,15 @@
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\GymVirtual.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\GymVirtual.pdb
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Ext.Net.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Ext.Net.Utilities.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Newtonsoft.Json.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Transformer.NET.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\WebActivatorEx.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Ext.Net.xml
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Ext.Net.Utilities.xml
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Newtonsoft.Json.xml
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\bin\Transformer.NET.xml
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.csprojResolveAssemblyReference.cache
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.dll
+c:\users\pcisa\documents\visual studio 2010\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.pdb
