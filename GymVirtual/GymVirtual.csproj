@@ -89,10 +89,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Content\js\Ventana.js" />
     <Content Include="View\Private\Escritorio.aspx" />
     <Content Include="View\Private\InscripcionCliente.aspx" />
     <Content Include="View\Public\Login.aspx" />
+=======
+    <Content Include="View\Private\Rutinas1.aspx" />
+>>>>>>> 3646fa3a668d322f1b0aecc1b94436d281a1a067
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -103,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conection\Conexion.cs" />
+<<<<<<< HEAD
     <Compile Include="Controller\ControllerUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\Private\Escritorio.aspx.cs">
@@ -125,6 +130,16 @@
     </Compile>
     <Compile Include="View\Public\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+=======
+    <Compile Include="Controller\controller_Rutina.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Private\Rutinas1.aspx.cs">
+      <DependentUpon>Rutinas1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Rutinas1.aspx.designer.cs">
+      <DependentUpon>Rutinas1.aspx</DependentUpon>
+>>>>>>> 3646fa3a668d322f1b0aecc1b94436d281a1a067
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +148,11 @@
   <ItemGroup>
     <Folder Include="Content\css\" />
     <Folder Include="Content\img\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Content\js\" />
+    <Folder Include="View\Public\" />
+>>>>>>> 3646fa3a668d322f1b0aecc1b94436d281a1a067
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
