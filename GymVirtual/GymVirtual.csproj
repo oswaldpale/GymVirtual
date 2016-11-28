@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="View\Private\Rutinas1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -99,7 +100,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conection\Conexion.cs" />
+    <Compile Include="Controller\controller_Rutina.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Private\Rutinas1.aspx.cs">
+      <DependentUpon>Rutinas1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Rutinas1.aspx.designer.cs">
+      <DependentUpon>Rutinas1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -108,8 +117,6 @@
     <Folder Include="Content\css\" />
     <Folder Include="Content\img\" />
     <Folder Include="Content\js\" />
-    <Folder Include="Controller\" />
-    <Folder Include="View\Private\" />
     <Folder Include="View\Public\" />
   </ItemGroup>
   <PropertyGroup>

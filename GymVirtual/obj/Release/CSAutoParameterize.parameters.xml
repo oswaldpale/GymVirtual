@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ParametroContext-Web.config Connection String" description="ParametroContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.Parametro.Model.csdl|res://*/Models.Parametro.Model.ssdl|res://*/Models.Parametro.Model.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=192.168.0.100;user id=planta;password=planta123;persistsecurityinfo=True;database=parametro&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ParametroContext']/@connectionString" />
+  </parameter>
+  <parameter name="GymVirtual-Web.config Connection String" description="GymVirtual Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="Data Source=localhost; database=control_acceso; uid=root; password=root" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GymVirtual']/@connectionString" />
+  </parameter>
+</parameters>

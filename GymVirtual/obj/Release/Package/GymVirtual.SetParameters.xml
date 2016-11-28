@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/GymVirtual_deploy" />
+  <setParameter name="ParametroContext-Web.config Connection String" value="metadata=res://*/Models.Parametro.Model.csdl|res://*/Models.Parametro.Model.ssdl|res://*/Models.Parametro.Model.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=192.168.0.100;user id=planta;password=planta123;persistsecurityinfo=True;database=parametro&quot;" />
+  <setParameter name="GymVirtual-Web.config Connection String" value="Data Source=localhost; database=control_acceso; uid=root; password=root" />
+</parameters>
