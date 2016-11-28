@@ -2,3 +2,5 @@
 GymVirtual.sln
 /Backup
 /GymVirtual/obj/
+/GymVirtual/Properties/
+/GymVirtual/GymVirtual.csproj.user
