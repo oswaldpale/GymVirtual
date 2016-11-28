@@ -29,3 +29,4 @@ C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\GymVirtual\GymVirtual\bin
 C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.csprojResolveAssemblyReference.cache
 C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.dll
 C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\GymVirtual\GymVirtual\obj\Debug\GymVirtual.pdb
+C:\Users\oswaldo\Documents\Visual Studio 2013\Projects\GymVirtual\GymVirtual\bin\MySql.Data.dll

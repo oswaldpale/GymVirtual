@@ -89,6 +89,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\js\Ventana.js" />
+    <Content Include="View\Private\Escritorio.aspx" />
+    <Content Include="View\Private\InscripcionCliente.aspx" />
+    <Content Include="View\Public\Login.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -99,7 +103,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conection\Conexion.cs" />
+    <Compile Include="Controller\ControllerUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Private\Escritorio.aspx.cs">
+      <DependentUpon>Escritorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\Escritorio.aspx.designer.cs">
+      <DependentUpon>Escritorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Private\InscripcionCliente.aspx.cs">
+      <DependentUpon>InscripcionCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Private\InscripcionCliente.aspx.designer.cs">
+      <DependentUpon>InscripcionCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Public\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Public\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -107,10 +133,6 @@
   <ItemGroup>
     <Folder Include="Content\css\" />
     <Folder Include="Content\img\" />
-    <Folder Include="Content\js\" />
-    <Folder Include="Controller\" />
-    <Folder Include="View\Private\" />
-    <Folder Include="View\Public\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
