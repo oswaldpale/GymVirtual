@@ -12,7 +12,6 @@
 
 <html>
 <head runat="server">
-    <title>FieldContainer - Ext.NET Examples</title>
     <link href="/resources/css/examples.css" rel="stylesheet" />
     <style>
         .dot-label {
@@ -54,30 +53,32 @@
                 <Items>
                     <ext:FormPanel runat="server"
                         Flex="1"
-                        Title="Individual Radios"
                         Layout="AnchorLayout"
                         DefaultAnchor="100%">
                         <Defaults>
                             <ext:Parameter Name="HideEmptyLabel" Value="false" Mode="Raw" />
                         </Defaults>
                         <Items>
-                            <ext:RadioGroup runat="server" ID="RPLAN" Anchor="none">
+                            <ext:ToolbarSpacer Height="20" />
+                            <ext:RadioGroup runat="server" ID="RPLAN" DefaultAnchor="80%">
                                 <Items>
-                                    <ext:Radio runat="server" BoxLabel="DIA" FieldLabel="PLANES" Checked="true" />
+                                    <ext:Radio runat="server" BoxLabel="DIA" Checked="true" />
                                     <ext:Radio runat="server" BoxLabel="SEMANAL" />
                                     <ext:Radio runat="server" BoxLabel="QUINCENAL" />
                                     <ext:Radio runat="server" BoxLabel="MENSUAL" />
                                 </Items>
                             </ext:RadioGroup>
+                            <ext:ToolbarSpacer Height="20" />
                         </Items>
                         <Buttons>
                             <ext:Button runat="server" Text="CANCELAR" />
                             <ext:Button runat="server" Text="SIGUIENTE" />
                         </Buttons>
+
                     </ext:FormPanel>
                 </Items>
             </ext:Panel>
-            <ext:Panel
+            <ext:FormPanel
                 runat="server"
                 Title="FORMA DE PAGO"
                 AnchorHorizontal="100%"
@@ -91,10 +92,63 @@
                         Title="Payment"
                         Layout="AnchorLayout"
                         DefaultAnchor="100%">
+                        <Items>
+                            <ext:RadioGroup
+                                runat="server"
+                                Anchor="none">
+                                <LayoutConfig>
+                                    <ext:CheckboxGroupLayoutConfig AutoFlex="false" />
+                                </LayoutConfig>
+                                <Defaults>
+                                    <ext:Parameter Name="name" Value="ccType" />
+                                    <ext:Parameter Name="style" Value="margin-right:15px;" />
+                                </Defaults>
+                                <Items>
+                                    <ext:Radio
+                                        runat="server"
+                                        InputValue="visa"
+                                        BoxLabel="VISA"
+                                        Checked="true" />
+
+                                    <ext:Radio
+                                        runat="server"
+                                        InputValue="mastercard"
+                                        BoxLabel="MasterCard" />
+
+                                    <ext:Radio
+                                        runat="server"
+                                        InputValue="amex"
+                                        BoxLabel="American Express" />
+
+                                    <ext:Radio
+                                        runat="server"
+                                        InputValue="discover"
+                                        BoxLabel="Discover" />
+                                </Items>
+                            </ext:RadioGroup>
+
+                            <ext:TextField
+                                runat="server"
+                                Name="ccName"
+                                FieldLabel="Name On Card"
+                                AllowBlank="false" />
+
+                             <ext:TextField
+                                        runat="server"
+                                        Name="ccNumber"
+                                        FieldLabel="Card Number"
+                                        Flex="1"
+                                        AllowBlank="false"
+                                        MinLength="15"
+                                        MaxLength="16"
+                                        EnforceMaxLength="true"
+                                        MaskRe="\d" />
+                          
+                        </Items>
                     </ext:FieldSet>
                 </Items>
 
-            </ext:Panel>
+            </ext:FormPanel>
             <ext:Panel
                 runat="server"
                 Title="SELECCIÓN INSTRUCTOR"
